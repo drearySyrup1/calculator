@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url(digital.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    font-family: 'Digital';
+    font-size: 1rem;
+    border: 0;
+    padding: 1em;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(187, 187, 187);
+}
+
+body {
+    font-family: 'Digital';
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color: #3d3d3d;
+    padding: 2em;
+    border-radius: 1em;
+    max-width: 50%p;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numsops {
+    display: flex;
+    gap: 10px;
+}
+
+#nums {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+#ops {
+    display: grid;
+    gap: 10px;
+
+}
+
+.eqcl {
+    display: flex;
+    gap: 10px;
+}
+
+.eqcl > * {
+    flex-grow: 1;
+}
+
+#display {
+    background-color: white;
+    padding: .7em;
+    border-radius: .4em;
+}
