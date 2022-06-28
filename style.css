@@ -10,7 +10,7 @@
 }
 
 button {
-    font-family: 'Digital';
+    font-family: 'sans-serif';
     font-size: 1rem;
     border: 0;
     padding: 1em;
@@ -27,7 +27,7 @@ button:hover {
 }
 
 body {
-    font-family: 'Digital';
+    font-family: 'sans-serif';
     margin: 0;
     width: 100vw;
     height: 100vh;
