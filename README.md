@@ -1,7 +1,7 @@
 # calculator
 
 
-##Simple Calculator
+## Simple Calculator
 - Keyboard support
 - Delete single digit
 - Floating point numbers
